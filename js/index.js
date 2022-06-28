@@ -1,3 +1,11 @@
+function typeWriter(txt, speed, i = 0) {
+	if (i < txt.length) {
+		$('.typewriter').append(txt.charAt(i));
+		i++;
+		setTimeout(typeWriter(txt, 50, i), speed);
+	}
+}
+
 const { Tolgee, IcuFormatter } = window['@tolgee/core'];
 const tg = Tolgee.use(IcuFormatter).init({
   //apiUrl: 'https://app.tolgee.io',
@@ -8,7 +16,11 @@ const tg = Tolgee.use(IcuFormatter).init({
   inputSuffix: '}}',
   watch: false,
 });
-tg.run();
+
+tg.run().then(() => {
+	var txt = tg.instant("BELETRO", undefined, true);
+	typeWriter(txt, 100);
+});
 
 $('.banner').load("template/banner.txt");
 //$('head').load("template/head.html");
