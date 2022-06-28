@@ -7,9 +7,19 @@
 }
 
 body {
-	background-image: url("/img/bg.jpg");
+	background-image: url("/img/fonoj/bg.jpg");
 	background-size: 100%;
 	background-attachment:fixed;
+}
+
+.inko {
+	background-size: contain;
+	background-image: url('/img/fonoj/inko_senlima.svg');
+	width: 100vw;
+}
+
+@media screen and (max-width: 1200px) {
+	.inko {background-size: cover}
 }
 
 .navbar-toggler-icon {
@@ -29,3 +39,4 @@ body {
 .banner {
 	line-height: 12pt;
 }
+
