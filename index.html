@@ -1,88 +1,99 @@
 <!DOCTYPE html>
 <html style="visibility:hidden">
-	<head><meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="x-ua-compatible" content="ie=edge" />
-<title>Ighu!Studio</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<link rel="stylesheet" href="/font/stylesheet.css" type="text/css">
-<link rel="stylesheet" href="/css/style.css" type="text/css">
-<link rel="stylesheet" href="/css/fontello-embedded.css" type="text/css">
-
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>Ighu!Studio</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="/font/stylesheet.css" type="text/css">
+		<link rel="stylesheet" href="/css/style.css" type="text/css">
+		<link rel="stylesheet" href="/css/fontello-embedded.css" type="text/css">
+		<link rel="icon" href="favicon.svg" type="image/svg">
+	</head>
 	<body>
 		<header>
-				<nav class="navbar navbar-dark navbar-expand-lg bg-black">
-			<div class="container-fluid">
-				<a class="ms-3 navbar-brand fs-1" href="#"><img src="/img/logotipoj/LudemaBlankaRektangula.svg" height=50 class="me-2">Ighu!Studio</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Baskuli navigacion">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav w-100 mb-2 mb-lg-0">
-						<li class="nav-item dropdown">
-							<a title="{{LUDOJ}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								<i class="icon-gamepad"></i>{{LUDOJ}}
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Komunterio</a></li>
-							</ul>
-						</li>
-						<li class="nav-item dropdown">
-							<a title="{{LIBREJO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								<i class="icon-book"></i>{{LIBREJO}}
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><span class="dropdown-item-text"><h5><b>{{BELETRO}}</b></h5></span></li>
-								<li><a class="dropdown-item" href="#">Komunterio</a></li>
-								<li><a class="dropdown-item" href="#">Lernolibro pri Kordalo</a></li>
-								<li><hr class="dropdown-divider"></li>
-								<li><span class="dropdown-item-text"><h5><b>{{TEKNIKA_LITERATURO}}</b></h5></span></li>
-								<li><a class="dropdown-item" href="#">Bevy Tromplibro</a></li>
-							</ul>
-						</li>
-						<li class="nav-item dropdown">
-							<a title="{{MUZIKO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								<i class="icon-headphones"></i>{{MUZIKO}}
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Koncepto Sociala</a></li>
-							</ul>
-						</li>
-						<li class="nav-item dropdown">
-							<a title="{{SOFTVARO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								<i class="icon-cd"></i>{{SOFTVARO}}
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Koncepto Sociala</a></li>
-							</ul>
-						</li>
-						<li class="nav-item dropdown ms-0 ms-lg-auto">
-							<a title="{{LINGVO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								<i class="icon-globe-1"></i><span class="d-inline d-lg-none">{{LINGVO}}</span>
-							</a>							
-							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item lang" value="eo" href="#"><img src="/img/lingvoj/eo.png"> Esperanto</a></li>
-								<li><a class="dropdown-item lang" value="uk" href="#"><img src="/img/lingvoj/ukraina.png"> Українська</a></li>
-								<li><a class="dropdown-item lang" value="ru" href="#"><img src="/img/lingvoj/rusa.png"> Русский</a></li>
-								<li><a class="dropdown-item lang" value="en" href="#"><img src="/img/lingvoj/angla.png"> English</a></li>
-							</ul>
-						</li>
-					</ul>
+			<nav class="navbar navbar-dark navbar-expand-lg bg-black">
+				<div class="container-fluid">
+					<a class="ms-3 navbar-brand fs-1" href="#"><img src="/img/logotipoj/LudemaBlankaRektangula.svg" height=50 class="me-2 logo">Ighu!Studio</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Baskuli navigacion">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav w-100 mb-2 mb-lg-0">
+							<li class="nav-item dropdown">
+								<a title="{{LUDOJ}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="icon-gamepad"></i>{{LUDOJ}}
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#">Komunterio</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a title="{{LIBREJO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="icon-book"></i>{{LIBREJO}}
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><span class="dropdown-item-text"><h5><b>{{BELETRO}}</b></h5></span></li>
+									<li><a class="dropdown-item" href="#">Komunterio</a></li>
+									<li><a class="dropdown-item" href="#">Lernolibro pri Kordalo</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><span class="dropdown-item-text"><h5><b>{{TEKNIKA_LITERATURO}}</b></h5></span></li>
+									<li><a class="dropdown-item" href="#">Bevy Tromplibro</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a title="{{MUZIKO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="icon-headphones"></i>{{MUZIKO}}
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#">Koncepto Sociala</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a title="{{SOFTVARO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="icon-cd"></i>{{SOFTVARO}}
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#">Sonmildo</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown ms-0 ms-lg-auto">
+								<a title="{{LINGVO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="icon-globe-1"></i><span class="d-inline d-lg-none">{{LINGVO}}</span>
+								</a>							
+								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item lang" value="eo" href="#"><img src="/img/lingvoj/eo.png"> Esperanto</a></li>
+									<li><a class="dropdown-item lang" value="uk" href="#"><img src="/img/lingvoj/ukraina.png"> Українська</a></li>
+									<li><a class="dropdown-item lang" value="ru" href="#"><img src="/img/lingvoj/rusa.png"> Русский</a></li>
+									<li><a class="dropdown-item lang" value="en" href="#"><img src="/img/lingvoj/angla.png"> English</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</nav>
-		<div class="inko">&nbsp;</div>
-		
-
-
+			</nav>
+			<div class="inko">&nbsp;</div>
 		</header>
-		<div class="container mt-3">
-			<h1 class="typewriter"></h1>
-			<pre class="banner text-light"></pre>
+		<div class="container-sm col-10 col-lg-6 col-md-8 col-sm-10 bg-tr mt-4 rounded py-4 px-3">
+			<pre class="text-center banner text-light"></pre>
+			<h1 class="typewriter text-center text-light"></h1>
 		</div>
-		<footer></footer>
+		<footer class="d-flex flex-wrap justify-content-between align-items-center p-4 pb-5 mt-4 bg-black">
+			<p class="col-md-4 mb-0 text-light"><img width=16 title="{COPYLEFT}" src="/img/copyleft.svg"> 2022 Ighu!Studio</p>
+			<a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+				<img src="/img/logotipoj/LudemaBlankaRektangula.svg" height=32>
+			</a>
+			<ul class="nav col-md-4 justify-content-end">
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+			</ul>
+			<a class="link-light text-decoration-none" href='https://www.freepik.com/photos/shop-background'>Shop background photo created by tirachard - www.freepik.com</a>
+		</footer>
 		<script	src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 		<script src="https://unpkg.com/@tolgee/core/dist/tolgee.umd.js"></script>
