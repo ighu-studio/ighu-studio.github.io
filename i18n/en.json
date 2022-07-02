@@ -1,11 +1,14 @@
 {
-  "BELETRO" : "Fiction",
-  "LIBREJO" : "Library",
-  "LINGVO" : "Language",
-  "LUDOJ" : "Games",
-  "MUZIKO" : "Music",
-  "SOFTVARO" : "Software",
-  "TEKNIKA_LITERATURO" : "Technical Literature",
-  "_IGHU" : "Become self!",
-  "COPYLEFT" : "Copyleft"
+  "BELETRO" 			: "Fiction",
+  "LIBREJO" 			: "Library",
+  "LINGVO" 				: "en",
+  "LUDOJ" 				: "Games",
+  "MUZIKO"	 			: "Music",
+  "SOFTVARO" 			: "Software",
+  "TEKNIKA_LITERATURO" 	: "Technical Literature",
+  "_IGHU" 				: "Become self!",
+  "COPYLEFT" 			: "Copyleft",
+  "NOVAJXOJ" 			: "News",
+  "SUBTENI" 			: "Support",
+  "PRI_NI"				: "About us"
 }

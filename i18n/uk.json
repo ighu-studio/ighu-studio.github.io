@@ -1,11 +1,14 @@
 {
-  "BELETRO" : "Худ. літ-ра",
-  "LIBREJO" : "Бібліотека",
-  "LINGVO" : "Мова",
-  "LUDOJ" : "Ігри",
-  "MUZIKO" : "Музика",
-  "SOFTVARO" : "Софт",
-  "TEKNIKA_LITERATURO" : "Технічна Література",
-  "_IGHU" : "Стань собою!",
-  "COPYLEFT" : "Копілефт"
+  "BELETRO" 			: "Худ. літ-ра",
+  "LIBREJO" 			: "Бібліотека",
+  "LINGVO" 				: "ua",
+  "LUDOJ" 				: "Ігри",
+  "MUZIKO" 				: "Музика",
+  "SOFTVARO" 			: "Софт",
+  "TEKNIKA_LITERATURO" 	: "Технічна Література",
+  "_IGHU" 				: "Стань собою!",
+  "COPYLEFT" 			: "Копілефт",
+  "NOVAJXOJ" 			: "Новини",
+  "SUBTENI" 			: "Підтримати",
+  "PRI_NI"				: "Про нас"
 }

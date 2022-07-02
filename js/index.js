@@ -1,6 +1,6 @@
 var txt = "";
 var rewrite = true;
-var speed = 200;
+var speed = 30;
 var i = 0;
 
 function typeWriter() {
@@ -8,8 +8,6 @@ function typeWriter() {
 		$('.typewriter').append(txt.charAt(i));
 		i++;
 		setTimeout(typeWriter, speed);
-	} else {
-		//$('.typewriter').html(tg.translate("MUZIKO", undefined, true).then(translation => {}));
 	}
 }
 

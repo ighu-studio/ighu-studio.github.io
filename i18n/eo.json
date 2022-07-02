@@ -1,11 +1,14 @@
 {
-  "BELETRO" : "Beletro",
-  "LIBREJO" : "Librejo ",
-  "LINGVO" : "Lingvo",
-  "LUDOJ" : "Ludoj",
-  "MUZIKO" : "Muziko",
-  "SOFTVARO" : "Softvaro",
-  "TEKNIKA_LITERATURO" : "Teĥnika Literaturo",
-  "_IGHU" : "Iĝu mem!",
-  "COPYLEFT" : "Kopilaso"
+  "BELETRO" 			: "Beletro",
+  "LIBREJO" 			: "Librejo ",
+  "LINGVO"			 	: "eo",
+  "LUDOJ" 				: "Ludoj",
+  "MUZIKO" 				: "Muziko",
+  "SOFTVARO" 			: "Softvaro",
+  "TEKNIKA_LITERATURO" 	: "Teĥnika Literaturo",
+  "_IGHU" 				: "Iĝu mem!",
+  "COPYLEFT" 			: "Kopilaso",
+  "NOVAJXOJ" 			: "Novaĵoj",
+  "SUBTENI" 			: "Subteni",
+  "PRI_NI"				: "Pri ni"
 }

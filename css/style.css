@@ -8,7 +8,8 @@
 
 body {
 	background-image: url("/img/fonoj/bg.jpg");
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 	background-attachment:fixed;
 }
 
@@ -38,8 +39,8 @@ body {
 }
 
 .bg-tr {
-	background: rgba(40, 40, 40, 0.5);
-	box-shadow: 0 0 10px rgba(40, 40, 40, 0.5), 0 0 10px rgba(40, 40, 40, 0.5), 0 0 10px rgba(40, 40, 40, 0.5);
+	background: rgba(0, 0, 0, 0.33);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.33), 0 0 10px rgba(0, 0, 0, 0.33), 0 0 10px rgba(0, 0, 0, 0.33);
 }
 
 @media screen and (max-width: 1100px) {
