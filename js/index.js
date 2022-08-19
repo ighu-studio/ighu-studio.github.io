@@ -54,12 +54,21 @@ function montriplu() {
 }
 
 tg.run().then(() => {
-	//$('.post').html();
 	document.getElementsByTagName("html")[0].style.visibility = "visible";
 });
 
 tg.onLangChange.subscribe(() => {
-	//$('.post').html(marked.parse(file_get_contents("/posts/" + tg.lang + "/20220819.md")));
+	$('.post-block').html("");
+	for(var i = 0; i < Math.min(length, loaded_posts); i++){
+		$('.post-block').append(
+		'<div class="container-md col-12 col-lg-6 col-sm-12">\
+			<div class="post m-3 bg-light rounded p-4">'
+			+
+			marked.parse(file_get_contents("/posts/" + tg.lang + "/" + posts[length - i] + ".md"))
+			+
+			'</div>\
+		</div>');
+	}
 });
 
 $('.lang').click(function() {

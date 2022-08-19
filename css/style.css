@@ -70,12 +70,29 @@ body {
 	overflow-y: scroll;
 }
 
+.post * {
+	font-family: 'Trabajo', serif;
+}
+
 .post h1 {
 	font-family: 'Noto Serif Display', serif;
 	font-size: 54px;
+	margin-left: 36px;
+}
+
+.post h2 {
+	font-family: 'Trabajo', serif;
+	font-size: 36px;
+	text-indent: 36px;
 }
 
 .post p {
+	font-family: "Trabajo", serif;
+	font-size: 20px;
+	text-indent: 36px;
+}
+
+.post u {
 	font-family: "Trabajo", serif;
 	font-size: 20px;
 	text-indent: 36px;
@@ -88,7 +105,7 @@ body {
 }
 
 .post .date {
-	font-family: "Crimson Text", serif;
+	font-family: "Trabajo", serif;
 	font-style: normal;
 	text-indent: 0;
 }
