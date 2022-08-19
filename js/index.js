@@ -27,7 +27,8 @@ const tg = Tolgee.use(IcuFormatter).init({
 
 var loaded_posts = 4;
 var posts = JSON.parse(file_get_contents("/posts/posts.json"));
-for(var i = 1; i <= Math.min(loaded_posts, Object.keys(posts).length); i++){
+var length = Object.keys(posts).length;
+for(var i = length; i > Math.max(length - loaded_posts, 0); i--){
 	$('.post-block').append(
 	'<div class="container-md col-12 col-lg-6 col-sm-12">\
 		<div class="post m-3 bg-light rounded p-4">'
@@ -39,17 +40,17 @@ for(var i = 1; i <= Math.min(loaded_posts, Object.keys(posts).length); i++){
 }
 
 function montriplu() {
+	for(var i = length - loaded_posts; i > Math.max(length - loaded_posts - 4, 0); i--){
+		$('.post-block').append(
+		'<div class="container-md col-12 col-lg-6 col-sm-12">\
+			<div class="post m-3 bg-light rounded p-4">'
+			+
+			marked.parse(file_get_contents("/posts/" + tg.lang + "/" + posts[i] + ".md"))
+			+
+			'</div>\
+		</div>');
+	}
 	loaded_posts += 4;
-	for(var i = loaded_posts - 3; i <= Math.min(loaded_posts, Object.keys(posts).length); i++){
-	$('.post-block').append(
-	'<div class="container-md col-12 col-lg-6 col-sm-12">\
-		<div class="post m-3 bg-light rounded p-4">'
-		+
-		marked.parse(file_get_contents("/posts/" + tg.lang + "/" + posts[i] + ".md"))
-		+
-		'</div>\
-	</div>');
-}
 }
 
 tg.run().then(() => {
