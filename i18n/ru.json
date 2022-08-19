@@ -10,5 +10,7 @@
   "COPYLEFT" 			: "Копилефт",
   "NOVAJXOJ" 			: "Новости",
   "SUBTENI" 			: "Поддержать",
-  "PRI_NI"				: "О нас"
+  "PRI_NI"				: "О нас",
+  "MONTRI"				: "Показать ещё",
+  "LINGVO_PLEN"			: "Язык"
 }

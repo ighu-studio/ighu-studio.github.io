@@ -10,5 +10,7 @@
   "COPYLEFT" 			: "Copyleft",
   "NOVAJXOJ" 			: "News",
   "SUBTENI" 			: "Support",
-  "PRI_NI"				: "About us"
+  "PRI_NI"				: "About us",
+  "MONTRI"				: "Show more",
+  "LINGVO_PLEN"			: "Language"
 }

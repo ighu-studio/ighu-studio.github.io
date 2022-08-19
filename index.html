@@ -60,14 +60,17 @@
 								</ul>
 							</li>
 							<li class="nav-item dropdown ms-0 ms-lg-auto">
-								<a title="{{LINGVO}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<a title="{{LINGVO_PLEN}}" class="text-uppercase nav-link text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 									<span class="d-none d-lg-inline">{{LINGVO}}</span><i class="icon-globe-1"></i><span class="d-lg-none d-inline">{{LINGVO}}</span>
 								</a>							
 								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 									<li><a class="dropdown-item lang" value="eo" href="#"><img src="/img/lingvoj/eo.png"> Esperanto</a></li>
 									<li><a class="dropdown-item lang" value="uk" href="#"><img src="/img/lingvoj/ukraina.png"> Українська</a></li>
 									<li><a class="dropdown-item lang" value="ru" href="#"><img src="/img/lingvoj/rusa.png"> Русский</a></li>
+									<li><a class="dropdown-item lang" value="es" href="#"><img src="/img/lingvoj/hispana.png"> Español</a></li>
+									<li><a class="dropdown-item lang" value="sl" href="#"><img src="/img/lingvoj/slovena.png"> Slovenščina</a></li>
 									<li><a class="dropdown-item lang" value="en" href="#"><img src="/img/lingvoj/angla.png"> English</a></li>
+									<li><a class="dropdown-item lang" value="sh" href="#"><img src="/img/lingvoj/shava.png"> 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -76,17 +79,13 @@
 			</nav>
 			<div class="inko">&nbsp;</div>
 		</header>
-		<div class="container-sm col-10 col-lg-6 col-md-8 col-sm-10 bg-tr mt-4 rounded py-4 px-3">
-			<div class="row">
-				<pre class="text-center banner text-light col-lg-8"></pre>
-				<div class="intro col-lg-4 d-flex flex-column justify-content-center">
-					<h1 class="typewriter text-center text-light"></h1>
-					<a href="#" class="btn btn-outline-light m-2 animate__animated animate__fadeInRight animate__delay-1s"><b>{{NOVAJXOJ}}</b></a>
-					<a href="#" class="btn btn-outline-light m-2 animate__animated animate__fadeInRight animate__delay-2s"><b>{{SUBTENI}}</b></a>
-					<a href="#" class="btn btn-outline-light m-2 animate__animated animate__fadeInRight animate__delay-3s"><b>GitHub</b></a>
-					<a href="#" class="btn btn-outline-light m-2 animate__animated animate__fadeInRight animate__delay-4s"><b>{{PRI_NI}}</b></a>
-				</div>
+		<div class="container-fluid mt-5">
+			<h1 class="display-1 text-light text-center noto-display bold">{{NOVAJXOJ}}</h1>
+			<br>
+			<div class="container-fluid posts">
+				<div class="row post-block"></div>
 			</div>
+			<center><button class="btn btn-outline-light mt-2" onclick="montriplu()">{{MONTRI}}</button></center>
 		</div>
 		<footer class="d-flex flex-wrap justify-content-between align-items-center p-4 pb-5 mt-4 bg-black">
 			<p class="col-md-4 mb-0 text-light"><img width=16 title="{{COPYLEFT}}" src="/img/copyleft.svg"> 2022 Ighu!Studio</p>
