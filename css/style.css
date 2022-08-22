@@ -71,7 +71,8 @@ body {
 }
 
 .post * {
-	font-family: 'Trabajo', serif;
+	font-family: 'Ubuntu';
+	font-weight: normal;
 }
 
 .post h1 {
@@ -81,31 +82,31 @@ body {
 }
 
 .post h2 {
-	font-family: 'Trabajo', serif;
+	font-family: 'Ubuntu';
 	font-size: 36px;
 	text-indent: 36px;
 }
 
 .post p {
-	font-family: "Trabajo", serif;
+	font-family: 'Ubuntu';
 	font-size: 20px;
 	text-indent: 36px;
 }
 
 .post u {
-	font-family: "Trabajo", serif;
+	font-family: 'Ubuntu';
 	font-size: 20px;
 	text-indent: 36px;
 }
 
 .post em {
-	font-family: "Trabajo", serif !important;
+	font-family: 'Ubuntu';
 	font-size: 20px;
 	font-weight: bolder !important;
 }
 
 .post .date {
-	font-family: "Trabajo", serif;
+	font-family: 'Ubuntu';
 	font-style: normal;
 	text-indent: 0;
 }
